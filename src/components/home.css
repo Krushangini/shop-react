@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #333;
+  position: sticky;
+  top: 0;
+  height:30px;
+  z-index: 999;
+}
+.profile-icon{
+  padding-top: -100px;
+}
+.profile {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-container {
+  position: absolute;
+  top: 60px; /* set to a specific value */
+  right: 20px; /* set to a specific value */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu-item {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.dropdown-menu-item:hover {
+  background-color: #f1f1f1;
+}
+ 
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+     font-size: 14px; 
+    font-weight: bold;
+    margin: 0 5px;
+    white-space: nowrap; /* Add this to prevent links from breaking to the next line */
+}
+  
+  .home-background {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    animation: scale 30s infinite;
+  }
+  
+  @keyframes scale {
+    0%, 100% {
+      background-image: url('https://thehill.com/wp-content/uploads/sites/2/2022/03/ca_collegeenrollment_istock.jpg?w=1280&h=720&crop=1');
+      transform: scale(1);
+    }
+    50% {
+      background-image: url('https://www.theasianschool.net/blog/wp-content/uploads/2023/01/Here-Know-Why-Books-Are-Important-in-Students-Life-1.jpg');
+      transform: scale(1.1);
+    }
+    75% {
+      background-image: url('https://wpvip.edutopia.org/wp-content/uploads/2023/01/hero_blog_education-trends_6-12_photo_iStock_1350904009_lechatnoir.jpg?w=2880&quality=85');
+      transform: scale(1);
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 370px;
+  }
+  
+  .loan-details, .apply { 
+    padding: 20px;
+    padding-top: 70px;
+    padding-left: 60px;
+    background-color: #c9bbbb;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loan-details:hover{
+   background-color: white;
+  }
+  .apply:hover{
+    background-color: white;
+   }
+  h2 {
+    margin-top: 0;
+  }
+  
+  .loan-details {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  .apply-for-loan {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+  
+  

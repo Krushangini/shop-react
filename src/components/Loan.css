@@ -1,0 +1,8 @@
+.bacloan{
+  background-image: url("https://kpmg.com/content/dam/kpmg/in/images/2023/03/students.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}

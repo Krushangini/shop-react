@@ -1,0 +1,83 @@
+img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+h1{
+    position: absolute;
+    left: 540px;
+    background: none;
+    font-family: bad-family;
+}
+form{
+    position: absolute;
+    right: 500px;
+    top:200px;
+    text-align: center;
+    background:none;
+}
+.id{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 250px;
+    height:40px;
+    border-radius: 2cm;
+    background: transparent;
+    box-shadow: 1px 1px 2px 2px rgb(212, 212, 223);
+    border: solid black 1px;
+}
+.l{
+    position: absolute;
+    top:290px;
+}
+.sign{
+    color:aqua;
+}
+.id:hover{
+    background: transparent;
+    box-shadow: 2px 2px 3px 3px rgb(212, 212, 223);
+}
+.lab{
+    background:none;
+    font-size: 0.8cm;
+}
+
+
+button{
+    position: absolute;
+    top: 250px;
+    width: 130px;
+    border-radius: 2cm;
+    background: transparent;
+}
+.sub{
+    color: black;
+    font-size: large;
+    font-style: bold;
+    font-size: 0.75cm;
+    text-decoration: none;
+    background: transparent;
+}
+
+button:hover{
+    background-color: rgb(5, 122, 122);
+}
+
+.for{
+    margin-left: 110px;
+    text-decoration: none;
+    color: red;
+    font-style: bold;
+    font-size: 0.55cm;
+}
+.for:hover{
+    box-shadow: 2px 2px 5px 5px rgb(196, 185, 185);
+}
+.err{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: red;
+    background-color: beige;
+}

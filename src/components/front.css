@@ -1,0 +1,69 @@
+
+h1{
+    margin-left: -70px;
+    font-family: Graduate;
+    font-size: 1.3cm;
+}
+.ps{
+    text-decoration: none;
+    color: black;
+    margin-left: 550px;
+    position: absolute;
+    top:75px;
+    font-size: 0.4cm;
+    right:520px;
+}
+.box{
+    position: absolute;
+    top:120px;
+    right: 40px;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    background-image: none;
+    border-radius: 4cm;
+    background:none;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: white ;
+    background-color: rgb(73, 73, 255);
+}
+.sp{
+    background:none;
+    background-color:none;
+    text-decoration: none;
+}
+
+.box1{
+    position: absolute;
+    top:200px;
+    right: 40px;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    background-image: none;
+    border-radius: 4cm;
+    background:none;
+    background-color:rgb(73, 73, 255);
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: white ;
+}
+
+p{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    font-family: Graduate;
+    font-size: small;
+    width: 500px;
+}
+
+span{
+    text-decoration: none;
+    color: white;
+    font-size: 0.6cm;
+}
